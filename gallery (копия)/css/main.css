@@ -1,0 +1,16 @@
+.img-box
+{
+	column-count: 4;
+	column-gap: 0;
+}
+
+.img
+{
+	width: 100%;
+	display: block;
+}
+
+.img + .img
+{
+	margin: 3px;
+}
